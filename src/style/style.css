@@ -1,0 +1,47 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body, #root { 
+    height:100%;
+}
+body {
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(170.69deg, #2A0A4A 4.12%, #2E0B49 106.24%);
+}
+
+
+.btcList {
+}
+.btcList:after {
+    height:1px;
+    content: '';
+    width:100%;
+    background: rgb(119,98,139);
+background: linear-gradient(90deg, rgba(119,98,139,1) 10%, rgba(2,0,36,0) 100%);
+position: absolute;
+bottom:0px;
+}
+
+.field {
+
+}
+
+.field input {
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    width: 100%;
+    color: #2A0A4A;
+    padding: 12px 16px;
+    font-weight: 600;
+}
+
+.field input:focus, .field input:focus-visible  {
+    border-color: #2A0A4A;
+}
